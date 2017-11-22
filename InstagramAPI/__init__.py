@@ -997,7 +997,7 @@ class InstagramAPI:
     
     def sendMessage(self, target_user, msgText):
         target_user = '[[{}]]'.format(','.join([target_user]))
-        url = 'direct_v2/threads/broadcast/text/'
+        url = 'direct_v2/threads/broadcast/profile/'
 
         data = {
             'text': msgText,
