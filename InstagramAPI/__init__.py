@@ -1008,4 +1008,4 @@ def sendMessage(self, target_user, msgText):
         'action': 'send_item',
         'client_context': self.generateUUID(True)}
 
-    return self.SendRequest(url, data
+    return self.SendRequest(url, data)
